@@ -61,7 +61,7 @@ public class MainActivity2 extends Activity implements
 
         recognizerIntent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
         recognizerIntent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_PREFERENCE,
-                "en");
+                "tk");
         recognizerIntent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
                 RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
         recognizerIntent.putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 3);
@@ -188,7 +188,7 @@ public class MainActivity2 extends Activity implements
                 keyWord = true;
                 Toast.makeText(getApplicationContext(), "Ahal", Toast.LENGTH_SHORT).show();
                 break;
-            } else if ("сранный явка".equals(namesArr[i]) || "Сравни ярка".equals(namesArr[i]) || "сранный йог".equals(namesArr[i]) || "сранный Йорк".equals(namesArr[i]) || "шрамы Йорк".equals(namesArr[i]) || "страны ок".equals(namesArr[i]) || "вчера не як".equals(namesArr[i]) || "терраны яркость".equals(namesArr[i]) || "шрамы явка".equals(namesArr[i]) || "шрамы Яг".equals(namesArr[i]) || "тираны як".equals(namesArr[i]) || "вчера на як".equals(namesArr[i]) || "сраный я".equals(namesArr[i]) || "сранный ок".equals(namesArr[i]) || "сраный ак".equals(namesArr[i]) ||"сраный ок".equals(namesArr[i]) ||"сранный як".equals(namesArr[i]) || "сразу як".equals(namesArr[i]) || "срань як".equals(namesArr[i]) || "сраная".equals(namesArr[i]) || "сранный Яг".equals(namesArr[i]) || "сранный я".equals(namesArr[i])) {
+            } else if ("сравнить ок".equals(namesArr[i]) || "сранный явка".equals(namesArr[i]) || "Сравни ярка".equals(namesArr[i]) || "сранный йог".equals(namesArr[i]) || "сранный Йорк".equals(namesArr[i]) || "шрамы Йорк".equals(namesArr[i]) || "страны ок".equals(namesArr[i]) || "вчера не як".equals(namesArr[i]) || "терраны яркость".equals(namesArr[i]) || "шрамы явка".equals(namesArr[i]) || "шрамы Яг".equals(namesArr[i]) || "тираны як".equals(namesArr[i]) || "вчера на як".equals(namesArr[i]) || "сраный я".equals(namesArr[i]) || "сранный ок".equals(namesArr[i]) || "сраный ак".equals(namesArr[i]) ||"сраный ок".equals(namesArr[i]) ||"сранный як".equals(namesArr[i]) || "сразу як".equals(namesArr[i]) || "срань як".equals(namesArr[i]) || "сраная".equals(namesArr[i]) || "сранный Яг".equals(namesArr[i]) || "сранный я".equals(namesArr[i])) {
 //                if (keyWord) {
                     Log.e("COMMAND", "LIGHT ON");
                     light_on(getApplicationContext());
@@ -196,7 +196,7 @@ public class MainActivity2 extends Activity implements
                     keyWord = false;
 //                }
                 break;
-            } else if ("сраное вчера".equals(namesArr[i]) || "сраных вечер".equals(namesArr[i]) || "сранный крючок".equals(namesArr[i]) || "вчерашний вечер".equals(namesArr[i]) || "сраный зачет".equals(namesArr[i]) || "сраный дача".equals(namesArr[i]) || "страны кучер".equals(namesArr[i]) || "сраный десерт".equals(namesArr[i]) || "срань вечер".equals(namesArr[i]) || "сразу черный".equals(namesArr[i]) || "страны учет".equals(namesArr[i]) || "сраный picture".equals(namesArr[i]) || "странный вечер".equals(namesArr[i]) || "сранный вечер".equals(namesArr[i]) || "вчера на вечер".equals(namesArr[i]) || "сранный couture".equals(namesArr[i]) || "сранный ветер".equals(namesArr[i]) || "сравнить вечер".equals(namesArr[i]) || "вчера не вечер".equals(namesArr[i]) || "шрамы вечер".equals(namesArr[i]) || "страны вечер".equals(namesArr[i]) || "вчера вечер".equals(namesArr[i]) || "сраный surf".equals(namesArr[i]) || "сравнить".equals(namesArr[i]) || "страны".equals(namesArr[i])) {
+            } else if ("sravni.ru".equals(namesArr[i]) || "сраное вчера".equals(namesArr[i]) || "сраных вечер".equals(namesArr[i]) || "сранный крючок".equals(namesArr[i]) || "вчерашний вечер".equals(namesArr[i]) || "сраный зачет".equals(namesArr[i]) || "сраный дача".equals(namesArr[i]) || "страны кучер".equals(namesArr[i]) || "сраный десерт".equals(namesArr[i]) || "срань вечер".equals(namesArr[i]) || "сразу черный".equals(namesArr[i]) || "страны учет".equals(namesArr[i]) || "сраный picture".equals(namesArr[i]) || "странный вечер".equals(namesArr[i]) || "сранный вечер".equals(namesArr[i]) || "вчера на вечер".equals(namesArr[i]) || "сранный couture".equals(namesArr[i]) || "сранный ветер".equals(namesArr[i]) || "сравнить вечер".equals(namesArr[i]) || "вчера не вечер".equals(namesArr[i]) || "шрамы вечер".equals(namesArr[i]) || "страны вечер".equals(namesArr[i]) || "вчера вечер".equals(namesArr[i]) || "сраный surf".equals(namesArr[i]) || "сравнить".equals(namesArr[i]) || "страны".equals(namesArr[i])) {
 //                if (keyWord) {
                     Log.e("COMMAND", "LIGHT OFF");
                     light_off(getApplicationContext());
@@ -243,7 +243,7 @@ public class MainActivity2 extends Activity implements
                     keyWord = false;
 //                }
                 break;
-            } else if ("Жаль очень".equals(namesArr[i]) || "шале-отель".equals(namesArr[i]) || "жалюзи открыл".equals(namesArr[i]) || "жаль у вас".equals(namesArr[i]) || "залез отце".equals(namesArr[i]) || "жаль у сапсан".equals(namesArr[i]) || "жаль у отца".equals(namesArr[i]) || "жаль усачев".equals(namesArr[i]) || "жаль уотсон".equals(namesArr[i]) || "зовет отцом".equals(namesArr[i]) || "занят отцом".equals(namesArr[i]) || "жалюзи ацил".equals(namesArr[i]) || "жалюз ацил".equals(namesArr[i]) || "жалюзи отшил".equals(namesArr[i]) || "жалюзи отель".equals(namesArr[i]) || "жалюзи Аксон".equals(namesArr[i]) || "жалюз Accent".equals(namesArr[i]) || "жалюзи отцом".equals(namesArr[i]) || "жалюз отшил".equals(namesArr[i])) {
+            } else if ("жалюз Осин".equals(namesArr[i]) || "жаль Уотсон".equals(namesArr[i]) || "Жаль очень".equals(namesArr[i]) || "шале-отель".equals(namesArr[i]) || "жалюзи открыл".equals(namesArr[i]) || "жаль у вас".equals(namesArr[i]) || "залез отце".equals(namesArr[i]) || "жаль у сапсан".equals(namesArr[i]) || "жаль у отца".equals(namesArr[i]) || "жаль усачев".equals(namesArr[i]) || "жаль уотсон".equals(namesArr[i]) || "зовет отцом".equals(namesArr[i]) || "занят отцом".equals(namesArr[i]) || "жалюзи ацил".equals(namesArr[i]) || "жалюз ацил".equals(namesArr[i]) || "жалюзи отшил".equals(namesArr[i]) || "жалюзи отель".equals(namesArr[i]) || "жалюзи Аксон".equals(namesArr[i]) || "жалюз Accent".equals(namesArr[i]) || "жалюзи отцом".equals(namesArr[i]) || "жалюз отшил".equals(namesArr[i])) {
 //                if (keyWord) {
                     Log.e("COMMAND", "CURTAIN OPEN");
 
